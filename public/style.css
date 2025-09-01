@@ -110,3 +110,49 @@ body {
 .trilha-card p {
     margin: 0 12px 12px 12px;
 }
+
+/* Galeria + Formulário - Etapa 4 */
+.galeria {
+    padding: 24px 16px;
+}
+
+.galeria h3 {
+    margin: 0 0 12px 0;
+}
+
+.galeria__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+}
+
+.galeria__grid img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.form-section {
+    padding: 24px 16px;
+}
+
+.form-visita {
+    max-width: 600px;
+}
+
+.form-visita .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.form-visita label {
+    margin-bottom: 4px;
+}
+
+.form-visita input {
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}

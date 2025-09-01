@@ -48,6 +48,35 @@
                 </article>
             </div>
         </section>
+        <section id="galeria" class="galeria" aria-label="Galeria">
+            <h3>Galeria</h3>
+            <div class="galeria__grid">
+                <img src="https://picsum.photos/id/1003/400/300" alt="Formações rochosas">
+                <img src="https://picsum.photos/id/1005/400/300" alt="Trecho de rio com pedras">
+                <img src="https://picsum.photos/id/1011/400/300" alt="Parede do cânion">
+                <img src="https://picsum.photos/id/1025/400/300" alt="Vegetação da serra">
+                <img src="https://picsum.photos/id/1036/400/300" alt="Riacho de águas claras">
+                <img src="https://picsum.photos/id/1043/400/300" alt="Panorama das montanhas">
+            </div>
+        </section>
+        <section id="planeje" class="form-section" aria-label="Planeje sua visita">
+            <h3>Planeje sua visita</h3>
+            <form class="form-visita" action="#" method="post">
+                <div class="form-row">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="data">Data da visita</label>
+                    <input type="date" id="data" name="data">
+                </div>
+                <button type="submit" class="button">Reservar</button>
+            </form>
+        </section>
     </main>
 </body>
 </html>
