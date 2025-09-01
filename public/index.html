@@ -21,7 +21,7 @@
 
     <main class="site-main" role="main">
         <section class="hero" aria-label="Destaque">
-            <img class="hero__image" src="https://picsum.photos/id/1039/1600/600" alt="Vista da Cachoeira do Tabuleiro">
+            <img class="hero__image" src="./fotoDaCachu.jpg" alt="Cachoeira do Tabuleiro">
             <div class="hero__content">
                 <h2>Trilha da Cachoeira do Tabuleiro</h2>
                 <p>Natureza exuberante em Conceição do Mato Dentro - MG.</p>
@@ -32,17 +32,17 @@
             <h3>Trilhas</h3>
             <div class="trilhas__grid">
                 <article class="trilha-card">
-                    <img src="https://picsum.photos/id/1021/600/400" alt="Trilha do Cânion">
+                    <img src="./trilha.jpg" alt="Trilha do Cânion">
                     <h4>Trilha do Cânion</h4>
                     <p>Percurso entre rochas e leito de rio até o cânion.</p>
                 </article>
                 <article class="trilha-card">
-                    <img src="https://picsum.photos/id/1018/600/400" alt="Poço da Cachoeira">
+                    <img src="./poço.jpg" alt="Poço da Cachoeira">
                     <h4>Poço da Cachoeira</h4>
                     <p>Chegada ao poço principal com vista da queda.</p>
                 </article>
                 <article class="trilha-card">
-                    <img src="https://picsum.photos/id/1015/600/400" alt="Mirante Superior">
+                    <img src="./mirante.jpg" alt="Mirante Superior">
                     <h4>Mirante Superior</h4>
                     <p>Vista panorâmica para fotografias e contemplação.</p>
                 </article>
@@ -51,17 +51,31 @@
         <section id="galeria" class="galeria" aria-label="Galeria">
             <h3>Galeria</h3>
             <div class="galeria__grid">
-                <img src="https://picsum.photos/id/1003/400/300" alt="Formações rochosas">
-                <img src="https://picsum.photos/id/1005/400/300" alt="Trecho de rio com pedras">
-                <img src="https://picsum.photos/id/1011/400/300" alt="Parede do cânion">
-                <img src="https://picsum.photos/id/1025/400/300" alt="Vegetação da serra">
-                <img src="https://picsum.photos/id/1036/400/300" alt="Riacho de águas claras">
-                <img src="https://picsum.photos/id/1043/400/300" alt="Panorama das montanhas">
+                <figure>
+                    <img src="./fotoDaCachu.jpg" alt="Cachoeira do Tabuleiro">
+                    <figcaption>Cachoeira do Tabuleiro</figcaption>
+                </figure>
+                <figure>
+                    <img src="./trechoDoRioPedras.jpg" alt="Trecho do rio com pedras">
+                    <figcaption>Trecho do rio com pedras</figcaption>
+                </figure>
+                <figure>
+                    <img src="./vegetacaoSerra.jpg" alt="Vegetação da serra">
+                    <figcaption>Vegetação da serra</figcaption>
+                </figure>
+                <figure>
+                    <img src="./riachoQuedaCachoeira.jpg" alt="Riacho e queda d'água">
+                    <figcaption>Riacho e queda d'água</figcaption>
+                </figure>
+                <figure>
+                    <img src="./PanoramaMontanha.jpg" alt="Panorama das montanhas">
+                    <figcaption>Panorama das montanhas</figcaption>
+                </figure>
             </div>
         </section>
         <section id="planeje" class="form-section" aria-label="Planeje sua visita">
-            <h3>Planeje sua visita</h3>
             <form class="form-visita" action="#" method="post">
+                <h3>Planeje sua visita</h3>
                 <div class="form-row">
                     <label for="nome">Nome</label>
                     <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
@@ -78,5 +92,8 @@
             </form>
         </section>
     </main>
+    <footer class="site-footer" role="contentinfo">
+        <p>&copy; 2025 Trilha Cachoeira do Tabuleiro — Projeto acadêmico.</p>
+    </footer>
 </body>
 </html>
