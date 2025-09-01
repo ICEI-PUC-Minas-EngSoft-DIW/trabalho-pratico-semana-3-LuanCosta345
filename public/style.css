@@ -73,3 +73,40 @@ body {
 .button:hover {
     background: #0284c7;
 }
+
+/* Trilhas - Etapa 3 */
+.trilhas {
+    padding: 24px 16px;
+}
+
+.trilhas h3 {
+    margin: 0 0 12px 0;
+}
+
+.trilhas__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.trilha-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.trilha-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.trilha-card h4 {
+    margin: 12px 12px 4px 12px;
+}
+
+.trilha-card p {
+    margin: 0 12px 12px 12px;
+}
